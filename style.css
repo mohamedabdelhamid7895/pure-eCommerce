@@ -375,7 +375,7 @@ background-color: ghostwhite;
 #page-footer a:hover {
   color: #ccc;
 }
-@media (min-width: 819px) {
+@media (min-width: 1024px) {
 #page-footer{
   margin-top: 577vh;
 }}
