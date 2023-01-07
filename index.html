@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="anonymous" /> -->
+
+<link rel="stylesheet" href="./style.css">
+    <title>Home</title>
+</head>
+<body>
+ <nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Logo</a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+    <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home </a></li>
+      <li><a href="form.html">Contact Us</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="#"><i class="fas fa-shopping-cart"><span id="cart-count"></span>
+</i></a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="#">Link 1</a></li>
+  <li><a href="#">Link 2</a></li>
+  <li><a href="#">Link 3</a></li>
+  <li><a href="#"><i class="fas fa-shopping-cart"><span id="cart-count"></span>
+</i></a></li>
+       </ul>
+
+
+
+
+
+
+<div class="slider">
+  <div class="slide active">
+    <img src="https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/263952/1.jpg?2849" alt="">
+        <div class="info">
+          <h2>Modern Suit </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpDTycLQ0QRcKLZHGsrvGlPYA91ta_BggOmunjbch2WnSuWM7yQKcFPMk_LFqk7upK8sc&usqp=CAU" alt="">
+        <div class="info">
+          <h2>full-outfit</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoOgIdbr_kW9LQI092tTxPKSWM9Ac993IGsg&usqp=CAU" alt="">
+        <div class="info">
+          <h2>Black t-shirt</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2GH4cxMe76hFwYQmvUzhbx3JSIOD2BGvHQA&usqp=CAU" alt="">
+        <div class="info">
+          <h2>sky Blue t-shirt </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_dBJaSfsFH-dw17KqI3FYyl01ZPgsy1ab2g&usqp=CAU" alt="">
+        <div class="info">
+          <h2>fashion t-shirt</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="navigation">
+        <i class="fas fa-chevron-left prev-btn"></i>
+        <i class="fas fa-chevron-right next-btn"></i>
+      </div>
+      <div class="navigation-visibility">
+        <div class="slide-icon active"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <a href="#" id="back-to-top">Back to Top</a>
+  
+    <form>
+      <label>Filter by category:</label>
+      <select id="category-filter">
+        <option value="all">All</option>
+        <option value="jewelery">jewelery</option>
+        <option value="men's clothing">men's clothing</option>
+        <option value="women's clothing">women's clothing</option>
+      </select>
+    </form>
+    <div id="products" class="card"></div>
+    <footer id="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure lorem10
+             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. lorem</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: 123-456-7890</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Connect</h3>
+            <ul class="social-links">
+              <li><a href="#">FaceBook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> 
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./index.js"></script>
+    <!-- <script src="footerShow.js"></script> -->
+</body>
+</html>
