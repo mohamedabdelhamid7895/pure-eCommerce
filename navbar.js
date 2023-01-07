@@ -20,9 +20,9 @@ function generateNavbarHtml() {
 </nav>
 
 <ul class="sidenav" id="mobile-demo">
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a></li>
-  <li><a href="#">Link 3</a></li>
+  <li><a href="index.html">Home </a></li>
+      <li><a href="form.html">Contact Us</a></li>
+      <li><a href="about.html">About Us</a></li>
   <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
 </ul>
 
