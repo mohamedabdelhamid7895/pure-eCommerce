@@ -9,12 +9,8 @@ function generateNavbarHtml() {
       <li><a href="index.html">Home </a></li>
       <li><a href="form.html">Contact Us</a></li>
       <li><a href="about.html">About Us</a></li>
-       <li>
-        <a href="#" id="cart-icon">
-          <i class="material-icons">shopping_cart</i>
-          <span id="cart-count">0</span>
-        </a>
-       </li>    
+      <li><a href="#"><i class="fas fa-shopping-cart"><span id="cart-count"></span>
+</i></a></li>
      </ul>
   </div>
 </nav>
